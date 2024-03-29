@@ -4,7 +4,7 @@ import pickle
 filepath = 'to_download_mapsets.pkl'
 # Insert the mapset ids you want to download here if not using get_mapset_ids.py
 # Keep empty if you want to empty downloads queue
-toDownload = [1889729, 2142618]
+toDownload = []
 
 dumpfile = {}
 for i in range(len(toDownload)):
